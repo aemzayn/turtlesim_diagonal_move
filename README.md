@@ -12,7 +12,11 @@ The reason I created this repository is I had a really hard time figuring out ho
 2. Run `roscore` in separate terminal
 3. Run turtlesim in another terminal 
     ```
+    rosrun turtlesim turtlesim_node
+    ```
+4. Run this package also in different terminal
+    ```
     rosrun turtlesim_diagonal_move move.py
     ```
-4. Enter the `direction` and `angle`
+5. Enter the `direction` and `angle`
 
